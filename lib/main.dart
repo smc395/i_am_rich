@@ -9,10 +9,56 @@ void main() => runApp(MaterialApp(
             child: Text("\$\$\$ I am RICH \$\$\$"),
           ),
         ),
-        body: Center(
-          child: Image(
-            image: AssetImage('images/diamond.png'),
-          ),
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: <Widget>[
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
+                Image(
+                  image: AssetImage('images/diamond.png'),
+                  height: 100.0,
+                  width: 100.0,
+                ),
+                Image(
+                  image: AssetImage('images/diamond.png'),
+                  height: 100.0,
+                  width: 100.0,
+                ),
+                Image(
+                  image: AssetImage('images/diamond.png'),
+                  height: 100.0,
+                  width: 100.0,
+                ),
+              ],
+            ),
+            Image(
+              image: AssetImage('images/diamond.png'),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
+                Image(
+                  image: AssetImage('images/diamond.png'),
+                  height: 100.0,
+                  width: 100.0,
+                ),
+                Image(
+                  image: AssetImage('images/diamond.png'),
+                  height: 100.0,
+                  width: 100.0,
+                ),
+                Image(
+                  image: AssetImage('images/diamond.png'),
+                  height: 100.0,
+                  width: 100.0,
+                ),
+              ],
+            ), //Icon(Icons.airport_shuttle, size: 36.0),
+          ],
         ),
       ),
     ));
